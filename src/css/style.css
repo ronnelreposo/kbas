@@ -1,0 +1,229 @@
+/* A bright blue for highlighting/accenting objects.  For example: selected
+     * text; selected items in menus, lists, trees, and tables; progress bars;
+     * default buttons.
+     */
+    /*-fx-accent: #f8cda7;*/
+
+    /* A bright blue for the focus indicator of objects. Typically used as the
+     * first color in -fx-background-color for the "focused" pseudo-class. Also
+     * typically used with insets of -1.4 to provide a glowing effect.
+     *
+     * TODO: should this be derived from -fx-accent?
+     */
+    /*-fx-focus-color: #f8eabe;*/
+
+.class-textfield
+{
+    -fx-font-size: 16;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #007cc2;
+    -fx-border-width: 1;
+    -fx-border-radius: 1;
+    -fx-control-inner-background: #ffffff; 
+    -fx-text-fill: #007cc2;
+}
+.class-textfield-secondary
+{
+    -fx-font-size: 16;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #45aedd;
+    -fx-border-width: 1;
+    -fx-border-radius: 0;
+    -fx-control-inner-background: #ffffff;
+    -fx-text-fill: #007cc2;
+}
+.class-button
+{
+    -fx-background-radius: 2;
+    -fx-background-color: #1e8fc1;
+    -fx-padding: 7 10 7 10;
+    -fx-cursor: hand;
+    -fx-font-size: 16;
+    -fx-text-fill: #ffffff;
+}
+.class-button:hover
+{
+    -fx-background-color: #007cc2;
+}
+.class-label
+{
+    -fx-font-size: 16;
+    -fx-text-fill: #007cc2;
+}
+/*
+	Numeric Pad
+*/
+.class-button-numpad
+{
+    -fx-background-radius: 2;
+    -fx-background-color: #ffffff;
+    -fx-cursor: hand;
+    -fx-font-size: 24;
+    -fx-text-fill: #3d9ec4;
+}
+.class-button-numpad:hover
+{
+    -fx-background-color: #60b2cc;
+    -fx-text-fill: #ffffff;
+}
+.class-container-numericpad
+{
+    -fx-background-radius: 5;
+    -fx-background-color: #ffffff;
+    -fx-border-width: 2;
+    -fx-border-color: #72c4ec;
+}
+/*
+	Header
+*/
+.class-container-header
+{
+    -fx-background-color: #d9f1f9;
+}
+/*
+	Update Password.
+*/
+.class-container-updatePassHeader
+{
+    -fx-background-color: #72c4ec;
+    -fx-border-color: #ffffff;
+}
+.class-btn-lastrow-calc
+{
+    -fx-background-radius: 0;
+    -fx-background-color: #ffffff;
+    -fx-padding: 8 15 8 15;
+    -fx-cursor: hand;
+    -fx-font-size: 28;
+    -fx-text-fill: #3d9ec4;
+}
+.class-container-updatePass
+{
+    -fx-background-color:#ffffff;
+}
+/*
+	NelInfoView 
+*/
+.class-lbl-infoView
+{
+    -fx-font-size: 20;
+    -fx-text-fill: #53b4db;
+}
+.class-btn-update-infoView
+{
+    -fx-background-radius: 2;
+    -fx-background-color: #1e8fc1;
+    -fx-cursor: hand;
+    -fx-font-size: 17;
+    -fx-text-fill: #ffffff;
+}
+.class-btn-update-infoView:hover
+{
+    -fx-background-color: #007cc2;
+}
+.class-lbl-updatePass-infoView
+{
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 25;
+}
+/*
+	Footer
+*/
+.class-line-btn
+{
+    -fx-background-color: #72c4ec;
+}
+.class-container-bottom
+{
+    -fx-background-color: #d9f1f9;
+    -fx-border-color: #72c4ec;
+    -fx-border-width: 1 0 0 0;
+}
+.class-btn-help, .class-btn-developers
+{
+    -fx-text-fill: #007cc2;
+    -fx-font-size: 14;
+    -fx-background-color: #d9f1f9;
+    -fx-cursor: hand;
+}
+.class-label-footer
+{
+    -fx-font-size: 16;
+    -fx-text-fill: #007cc2;
+}
+
+
+/* ==================================================== */
+.wrapperTOP, .wrapperLEFT, .wrapperCENTER, .wrapperRIGHT, .wrapperRIGHT {
+	-fx-background-color:#ffffff;
+}
+
+/*
+	header
+*/
+.class-btn {
+	-fx-background-radius:2;
+	-fx-background-color:#1e8fc1;
+	-fx-padding:5 8 5 8;
+	-fx-cursor:hand;
+	-fx-font-size:16;
+	-fx-text-fill:#ffffff;
+}
+
+.class-btn:hover {
+	-fx-background-color:#007cc2;
+}
+
+.class-container-header {
+	-fx-background-color:#d9f1f9;
+	-fx-border-color:#72c4ec;
+	-fx-border-width:0 0 1 0;
+}
+
+/*
+	center
+*/
+.class-textfield {
+	-fx-font-size:16;
+	-fx-background-color:#ffffff;
+	-fx-border-width:1;
+    -fx-border-radius:0;
+    -fx-control-inner-background:#ffffff; 
+    -fx-border-color:#45aedd;
+    -fx-text-fill:#007cc2;
+}
+
+.class-label {
+	-fx-font-size:17;
+	-fx-text-fill:#007cc2;
+}
+
+.class-radio-button {
+	-fx-font-size:15;
+	-fx-text-fill:#007cc2;
+}
+
+.class-container-center {
+	-fx-background-color:#f9f9f9;
+}
+
+.class-btn-img {
+	-fx-background-color:#ffffff;
+	-fx-cursor:hand;
+}
+
+/*
+	bottom
+*/
+.class-container-bottom {
+	-fx-background-color:#d9f1f9;
+	-fx-border-color:#72c4ec;
+	-fx-border-width:1 0 0 0;
+}
+
+.class-btn-help, .class-btn-developers {
+	-fx-text-fill:#007cc2;
+	-fx-font-size:14;
+	-fx-background-color:#d9f1f9;
+	-fx-cursor:hand;
+}

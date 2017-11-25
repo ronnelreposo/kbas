@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="kbas_proto.jnlp">
+  <information>
+    <title>kbas_proto</title>
+    <vendor>Arya</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="kbas_proto.jar" size="373241" download="eager" />
+    <jar href="lib\functional.jar" size="4275" download="eager" />
+    <jar href="lib\fx-controls-adapter.jar" size="8102" download="eager" />
+    <jar href="lib\junit-4.12.jar" size="316791" download="eager" />
+    <jar href="lib\keypad.jar" size="2171" download="eager" />
+    <jar href="lib\model.jar" size="24000" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="kbas_proto" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="app.App"  name="kbas_proto" />
+  <update check="always"/>
+</jnlp>

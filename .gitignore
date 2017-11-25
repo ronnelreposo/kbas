@@ -1,0 +1,5 @@
+#ignored files and directories
+
+manifest.mf
+
+build.xml
