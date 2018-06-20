@@ -206,11 +206,12 @@ public final class AssessmentPrintingTemplate implements Printable
                                 (Y_INTERVAL), (t))), (fees)))));
     }
     
-    private boolean isArrayEquals(String[] a1, String[] a2)
+    private boolean isArrayLengthEquals(String[] a1, String[] a2)
     {
-        return ( ((a1) == (null))
-                || ((a2) == (null))
-                || ((a1.length) == (a2.length)) );
+    	if (a1 == null && a2 = null) { return true; }
+	if (a1 == null && a2 != null) { return false; }
+	if (a1 != null && a2 == null) { return false; }
+        return a1.length == a2.length;
     }
     
     private Tuple<String, IPoint> drawFeesAndDetails (int i, String[] headings, String[] types,
