@@ -217,7 +217,7 @@ public final class AssessmentPrintingTemplate implements Printable
     private Tuple<String, IPoint> drawFeesAndDetails (int i, String[] headings, String[] types,
             Tuple<String, IPoint> t)
     {
-        return (( (isArrayEquals((headings), (types)))
+        return (( (isArrayLengthEquals((headings), (types)))
                 && ((i) > ((headings.length) - (1))) ) ? (t) :
                 (drawFeesAndDetails(((i) + (1)), (headings), (types),
                         (drawFees((Tuple.Create((headings[(i)]),
